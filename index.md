@@ -2,23 +2,16 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Wie beziehe ich die Nutzung der Native Storage Extension (NSE) in das HANA Hardware Sizing ein?
 
-[Link to another page](./another-page.html).
+## Was ist NSE?
 
-There should be whitespace between paragraphs.
+## Wann kann ich NSE verwenden?
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Grundlagen des Sizings
 
-# Header 1
+## Der Faktor NSE
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Fazit
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-
-Hallo Jakob
+## Quellen
