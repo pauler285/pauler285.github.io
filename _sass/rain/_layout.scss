@@ -32,7 +32,8 @@ footer,
 
     &:hover,
     &:focus {
-      opacity: .6;
+      color: $default-tint;
+//      opacity: .6;
     }
   }
 
