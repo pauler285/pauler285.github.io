@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS Immersion Day"
+title:  "AWS Immersion Day - Supplemental Information"
 author: "Robert"
 ---
 
