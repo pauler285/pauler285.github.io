@@ -16,7 +16,7 @@ Backint Agent.
 * Sourav Kumar Sadhu, AWS Partner Solutions Architect, SAP
 * Robert Paul, AWS Partner Solutions Architect, SAP
 
-## Lab Guides
+## Lab Guide (main document to follow)
 
 [https://basis-express-immersionday.workshop.aws/](https://basis-express-immersionday.workshop.aws/)
 
@@ -24,7 +24,7 @@ Backint Agent.
 
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
 * Region will be *us-east-1 (North Virginia)* at all times.
-* Event Hash: 3c4f-1e47bd6374-34
+* Event Hash: **3c4f-1e47bd6374-34**
 
 ## S3 Bucket for HANA Installation Media
 
@@ -43,7 +43,7 @@ Backint Agent.
 ![Target architecture of the lab](../images/AWS_immersion_day_architecture.jpg)
 *Target architecture of the lab*
 
-## Instructions for Labs
+## Additional information for the lab
 
 ### Login to lab environment
 
@@ -54,7 +54,7 @@ Click *Prerequisites - AWS account “Event Engine“* tab to Login to lab your 
 * Lab Environment login: [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
 * Use event hash: **3c4f-1e47bd6374-34**
 * Choose “Email One-Time Password (OTP)” and use your company email id (check your SPAM too) – this might take 1 or 2 minutes to arrive.
-* Click **“AWS Console”** to open AWS Console
+* Click **“AWS Console”** to access the AWS Console
 
  
 ### Lab 1: Getting started
