@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "aws immersion day"
-author: "robpaulx"
+title: "AWS Immersion Day"
+author: "Nobody"
 ---
 
 Here we see a test post
