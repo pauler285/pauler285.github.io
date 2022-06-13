@@ -74,15 +74,12 @@ Click “Lab 1: Getting Started” and complete the below sections
 Follow instructions in the lab guide. 
 Click “Lab 2: Deploy SAP HANA” and complete the below sections.
 
-* Task 2.1 - Option 1 – AWS Launch Wizard
-    *  IMPORTANT POINTS FOR Lab Task 2.1:
-    
-        For Step 7 – you will need to create your own bucket – use this link [https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html), make sure to select region **“us-east-1 (N. Virginia)”**, name the bucket **"\<initials>-sc-<random_number>"** so that the name is unique, and leave everything else default. Once you create, you will need to select the bucket.
+* Task 2.1 - Option 1 – AWS Launch Wizard **(IMPORTANT NOTES)**
+    * For Step 7 – you will need to create your own bucket – use this link [https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html), make sure to select region **“us-east-1 (N. Virginia)”**, name the bucket **"\<initials>-sc-<random_number>"** so that the name is unique, and leave everything else default. Once you create, you will need to select the bucket.
     * For Step 20, point no. 4 use the following S3 URL *(including the concluding /)*: [s3://launchwizard-160656184270/saps4hana-2021/HANADB/](s3://launchwizard-160656184270/saps4hana-2021/HANADB/)
     * The deployment will take ~30 minutes to finish.
 * Task 2.2: Install HANA Admin Console 
 
- 
 ### Lab 3: Backup SAP HANA**
 
 *IMPORTANT:* First step is to create an Amazon S3 Bucket to store your HANA Backup. Refer to link: 
@@ -94,11 +91,11 @@ Click “Lab 3: Backup SAP HANA” and complete the below sections.
 * Task 3.2: Managing AWS Backint Agent through HANA Studio
 * Task 3.3: HANA Backup Automation
  
-### Lab 4: 
+### Lab 4: Additional labs
 
 Optional task - only perform if you are ahead of time
 
-### Optional Labs:
+### Optional Labs
 
 Optional task - only perform if you are ahead of time
 
