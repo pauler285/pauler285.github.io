@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS Immersion Day"
+title: "aws immersion day"
 author: "robpaulx"
 ---
 
