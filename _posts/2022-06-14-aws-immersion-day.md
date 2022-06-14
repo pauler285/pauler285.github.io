@@ -24,7 +24,8 @@ Backint Agent.
 
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
 * Event Hash: **3c4f-1e47bd6374-34**
-* Region will be **us-east-1 (North Virginia)** at all times.
+* Please use region **us-east-1 (North Virginia)** at all times.
+* The temporary accounts are valid until: 2022-06-16 ~10:00 a.m. UTC
 * Set a team name (this helps for the troubleshooting)
 
 ## S3 bucket for HANA installation media
