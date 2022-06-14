@@ -23,7 +23,8 @@ Backint Agent.
 ## AWS account
 
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
-* Region will be *us-east-1 (North Virginia)* at all times.
+* Region will be **us-east-1 (North Virginia)** at all times.
+* Set a team name (this helps for the troubleshooting)
 * Event Hash: **3c4f-1e47bd6374-34**
 
 ## S3 bucket for HANA installation media
