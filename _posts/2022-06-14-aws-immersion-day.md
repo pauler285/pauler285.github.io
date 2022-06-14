@@ -67,6 +67,7 @@ Click “Lab 1: Getting Started” and complete the below sections
 * Task 1.1: Create a VPC
 * Task 1.2: Create an IAM Role
 * Task 1.3: Create an AWS Key Pair
+    * Please make sure to use the **\*.pem** format.
 * Task 1.4: Create Remote Desktop
 * DO NOT perform Task 1.5: Download the installation media (*We have provided an S3 bucket with HANA software installation media already, as per notes below*)
 
