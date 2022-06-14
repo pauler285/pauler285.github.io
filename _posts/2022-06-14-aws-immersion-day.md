@@ -9,24 +9,24 @@ Administration Console on that jump server. You will deploy an SAP HANA system u
 Wizard for SAP and perform various tasks including database backups to Amazon S3 storage using AWS
 Backint Agent.
 
-## Your Hosts
+## Your hosts
 
 * Marcus Ritter, AWS Senior Partner Trainer
 * Sreenath Middhi, AWS Sr. Partner Solutions Architect, SAP 
 * Sourav Kumar Sadhu, AWS Partner Solutions Architect, SAP
 * Robert Paul, AWS Partner Solutions Architect, SAP
 
-## Lab Guide (main document to follow)
+## Lab guide (main document to follow)
 
 [https://basis-express-immersionday.workshop.aws/](https://basis-express-immersionday.workshop.aws/)
 
-## AWS Account
+## AWS account
 
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
 * Region will be *us-east-1 (North Virginia)* at all times.
 * Event Hash: **3c4f-1e47bd6374-34**
 
-## S3 Bucket for HANA Installation Media
+## S3 bucket for HANA installation media
 
 * [s3://launchwizard-160656184270/saps4hana-2021/HANADB/](s3://launchwizard-160656184270/saps4hana-2021/HANADB/)
 
@@ -38,7 +38,7 @@ Backint Agent.
 * Room 4: [https://chime.aws/4490540088](https://chime.aws/4490540088)
 * Room 5: [https://chime.aws/3595748058](https://chime.aws/3595748058)
 
-## Additional Information
+## Additional information
 
 ![Target architecture of the lab](../images/AWS_immersion_day_architecture.jpg)
 *Target architecture of the lab*
