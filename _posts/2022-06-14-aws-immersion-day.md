@@ -53,6 +53,7 @@ Click *Prerequisites - AWS account “Event Engine“* tab to Login to lab your 
 
 * Lab Environment login: [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
 * Use event hash: **3c4f-1e47bd6374-34**
+* Set a team name (this helps for the troubleshooting)
 * Choose “Email One-Time Password (OTP)” and use your company email id (check your SPAM too) – this might take 1 or 2 minutes to arrive.
 * Click **“AWS Console”** to access the AWS Console
 
