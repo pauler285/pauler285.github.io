@@ -68,7 +68,7 @@ You’ll be introduced to 5 different **CHAOS** at different intervals. As soon 
 
 Once you reach a certain score a new **CHAOS** level is triggered. This may take some minutes to take effect in your GameDay environment.
 
-|   Chaos # &nbsp; &nbsp;   | Trigger Score &nbsp; &nbsp; |
+| &nbsp;  Chaos # &nbsp;    | &nbsp; Trigger Score  &nbsp; |
 |:-------------------------:|:---------------------------:|
 |             1             |            21000            |
 |             2             |            23500            |
