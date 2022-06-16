@@ -4,28 +4,28 @@ title:  "Master Migrating SAP Workloads - SAP GameDay"
 author: "Robert"
 ---
 
-## About AWS GameDay
+# About AWS GameDay
 
 GameDay is a collaborative learning exercise that tests skills in implementing AWS solutions to solve real-world problems in a gamified, risk-free environment. This is a completely hands-on opportunity for technical professionals to explore AWS services, architecture patterns, best practices, and group cooperation.
 
 The setting for every GameDay is our famous (fictitious) narrative. Participants are new hires at *Unicorn.Rentals* and this is their first day on the job.
 
-## SAP GameDay
+# SAP GameDay
 AWS-led fun and competitive full-day experience where participants troubleshoot and resolve unplanned outages to the SAP S/4HANA application.
  
-## The story 
+## The Story 
 A fictitious organization *Unicorn.Rentals* relies heavily on SAP to run their core enterprise. They use it to run core financials, sales, distribution, and HR. SAP is very critical to their rental business and if it is not available, there is a heavy revenue impact to the company. In short, if SAP is not available, customers cannot rent or return products and users cannot process business transactions. You’re tasked to maintain a resilient SAP system and expected to fix any issue that might arise during the day.
 
-## Session information
+# Session information
 
-### Main Session (Webex) 
+## Main Session (Webex) 
 
 [https://awsvirtual.webex.com/awsvirtual/j.php?MTID=m4aafbe87d6120b018c4f6258ae4de5b9](https://awsvirtual.webex.com/awsvirtual/j.php?MTID=m4aafbe87d6120b018c4f6258ae4de5b9)
 
 * A headset is recommended or you may use your computer’s microphone and speakers.
 * Pleae mute yourself while not actively speaking
 
-### Support Session
+## Support Session
 
 * Amazon Chime will be used for individual support sessions. 
 * Download Amazon Chime at [https://aws.amazon.com/chime/download](https://aws.amazon.com/chime/download)
@@ -36,12 +36,12 @@ A fictitious organization *Unicorn.Rentals* relies heavily on SAP to run their c
     * Room 4: [https://chime.aws/9533943617](https://chime.aws/9533943617)
     * Room 5: [https://chime.aws/1438413717](https://chime.aws/1438413717)
 
-## SAP Landscape Architecture for GameDay
+# SAP Landscape Architecture for GameDay
 
 ![architecture of the gameday environment](../images/aws_gameday_architecture.jpg)
 *Architecture of the gameday environment*
 
-## Game Play
+# Game Play
 All participants are expected to have **level 200-300 skills in SAP administration** and **level 100-200 skills in AWS cloud**
 
 A series of random infrastructure and SAP related disruptions called **CHAOS** will be introduced to the SAP S/4HANA landscape. Participants have to diagnose the root cause and get users back online and connected to SAP to minimize impact. The built in disruptions are meant to simulate what could happen in an actual production SAP landscape. Participants who fix the disruptions are awarded points on the basis on numerous factors and move on to the next level with new **CHAOS** to happen. The participant with most points at the end wins the AWS SAP GameDay.
@@ -68,7 +68,7 @@ You’ll be introduced to 5 different **CHAOS** at different intervals. As soon 
 
 Once you reach a certain score a new **CHAOS** level is triggered. This may take some minutes to take effect in your GameDay environment.
 
-|  Chaos Level  |  Trigger Score  |
+|    Chaos #    |  Trigger Score  |
 |:-------------:|:---------------:|
 |       1       |      21000      |
 |       2       |      23500      |
@@ -76,13 +76,13 @@ Once you reach a certain score a new **CHAOS** level is triggered. This may take
 |       4       |      28500      |
 |       5       |      31000      |
 
-## Feedback
+# Feedback
 Please complete the online SAP GameDay survey before you exit the event, your opinion matters. Responses are anonymous and are critical to help improve future event experiences.
 
 ![survey](../images/aws_gameday_survey.jpg)
 *Where to find the survey*
 
-## Useful Links
+# Useful Links
 
 * AWS GameDay: [https://aws.amazon.com/gameday/](https://aws.amazon.com/gameday/)
 * SAP on AWS: [https://aws.amazon.com/sap/](https://aws.amazon.com/sap/)
