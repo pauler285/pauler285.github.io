@@ -51,20 +51,20 @@ A series of random infrastructure and SAP related disruptions called **CHAOS** w
 You’ll be introduced to 5 different **CHAOS** at different intervals. As soon as you identify and fix the issue, points would be awarded and you move on to the next level of the game and will be introduced to a new **CHAOS**. Each **CHAOS** is solved when you are able to log on to the SAP system using SAPlogon again. 
 
 * Login to the SAP GameDay environment
-    * AWS environment login: [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
-    * Use event hash: **c193-1b69073794-d3**
-    * Choose **“Email One-Time Password (OTP)”** and use your company email id which you used to register for the event (APN).
-    * In the Teams Dashboard click on **“Set Team Name”** and provide your name.
+    * Team Dashboard: [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
+    * Use Event Hash: **c193-1b69073794-d3**
+    * Choose **Email One-Time Password (OTP)** and use your company email id which you used to register for the event (APN).
+    * In the *Team Dashboard* click on **“Set Team Name”** and provide your team name.
     * Read the **README** carefully. This holds valuable information
-    * Click **“AWS Console”** to open AWS Console
-    * Check your **current score** on the scoreboard
+    * Click **AWS Console** to open AWS Console
+    * Check your **current score** on the score board
 
 ## First steps
 
-* Once the **CHAOS** has started (the instructor will let you know) get an overview about your AWS GameDay environment
+* Once the first **CHAOS** has started (the instructor will let you know) get an overview about your AWS GameDay environment
 * Find out what led to the unavailability of the SAP system
-* Use all available information (Readme, this page, the AWS console) to solve the issue and reestablish the connection to the SAP system via SAPlogon
-* You may find useful landscape information in you scoring details
+* Use all available information (README, this page, the AWS Console) to solve the issue and reestablish the connection to the SAP system via SAPlogon
+* You may find useful information under *Score Events* on your *Team Dashboard* as well
 
 ## Feedback
 Please complete the online SAP GameDay survey before you exit the event, your opinion matters. Responses are anonymous and are critical to help improve future event experiences.
