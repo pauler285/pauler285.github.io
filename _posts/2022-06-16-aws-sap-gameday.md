@@ -41,6 +41,17 @@ A fictitious organization *Unicorn.Rentals* relies heavily on SAP to run their c
 ![architecture of the gameday environment](../images/aws_gameday_architecture.jpg)
 *Architecture of the gameday environment*
 
+|Name                       | Instance Type | Availability Zone | Security Group Name                                         |  
+|---------------------------|-----------|---------------|---------------------------------------------------------------------|      
+|HANA - HDB - Secondary     | r5.4xlarge|  us-east-1b   | mod-*-SAPASCSStackSplitandEF-SecondaryInstance-*-HANASecurityGroup-*|     	
+|StbySAPASCS                | r5.xlarge	|  us-east-1b   | mod-*-SAPASCSStackSplitandEFS-*-SAPASCSSecurityGroup-*              |      
+|HANA - HDB - Primary       | r5.4xlarge|  us-east-1a   | mod-*-SAPASCSStackSplitandEFS-PrimaryInstance-*-HANASecurityGroup-* |       
+|app1ascs00                 | r5.xlarge	|  us-east-1a   | mod-*-SAPASCSStackSplitandEFS-*-SAPASCSSecurityGroup-*              |            
+|app1pas00                  | r5.xlarge	|  us-east-1a	| mod-*-SAPPASStackSplitandEFS-*-SAPPASSecurityGroup-*                |        
+|app1aas00                  | r5.xlarge	|  us-east-1a	| mod-*-SAPPASStackSplitandEFS-*-SAPAASStack-*-SAPAASSecurityGroup-*  |                    
+|Unicorn-Rentals-HQ-SAP PC-1| t2.large  |  us-east-1a	| unicorn-sg                                                          |    
+|Unicorn-Rentals-HQ-SAP PC-2| t2.large  |  us-east-1a	| unicorn-sg                                                          |        
+
 # Game Play
 All participants are expected to have **level 200-300 skills in SAP administration** and **level 100-200 skills in AWS cloud**
 
