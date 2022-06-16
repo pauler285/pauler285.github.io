@@ -68,13 +68,13 @@ You’ll be introduced to 5 different **CHAOS** at different intervals. As soon 
 
 Once you reach a certain score a new **CHAOS** level is triggered. This may take some minutes to take effect in your GameDay environment.
 
-|    Chaos #    |  Trigger Score  |
-|:-------------:|:---------------:|
-|       1       |      21000      |
-|       2       |      23500      |
-|       3       |      26000      |
-|       4       |      28500      |
-|       5       |      31000      |
+|   Chaos #   | Trigger Score |
+|-------------|---------------|
+|      1      |     21000     |
+|      2      |     23500     |
+|      3      |     26000     |
+|      4      |     28500     |
+|      5      |     31000     |
 
 # Feedback
 Please complete the online SAP GameDay survey before you exit the event, your opinion matters. Responses are anonymous and are critical to help improve future event experiences.
