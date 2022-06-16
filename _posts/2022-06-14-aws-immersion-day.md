@@ -42,7 +42,7 @@ Backint Agent.
 
 ## Additional information
 
-![Target architecture of the lab](../images/AWS_immersion_day_architecture.jpg)
+![Target architecture of the lab](../images/aws_immersion_day_architecture.jpg)
 *Target architecture of the lab*
 
 ## Additional information for the lab
