@@ -20,7 +20,7 @@ A fictitious organization *Unicorn.Rentals* relies heavily on SAP to run their c
 
 ### Main Session (Webex) 
 
-https://awsvirtual.webex.com/awsvirtual/j.php?MTID=m4aafbe87d6120b018c4f6258ae4de5b9
+[https://awsvirtual.webex.com/awsvirtual/j.php?MTID=m4aafbe87d6120b018c4f6258ae4de5b9](https://awsvirtual.webex.com/awsvirtual/j.php?MTID=m4aafbe87d6120b018c4f6258ae4de5b9)
 
 * A headset is recommended or you may use your computer’s microphone and speakers.
 * Pleae mute yourself while not actively speaking
@@ -42,9 +42,9 @@ https://awsvirtual.webex.com/awsvirtual/j.php?MTID=m4aafbe87d6120b018c4f6258ae4d
 *Architecture of the gameday environment*
 
 ## Game Play
-A series of random infrastructure and SAP related disruptions called **CHAOS** will be introduced to the SAP S/4HANA landscape. Participants have to diagnose the root cause and get users back online and connected to SAP to minimize impact. The built in disruptions are meant to simulate what could happen in an actual production SAP landscape. Participants who fix the disruptions are awarded points on the basis on numerous factors and move on to the next level with new **CHAOS** to happen. The participant with most points at the end wins the AWS SAP GameDay.
-
 All participants are expected to have **level 200-300 skills in SAP administration** and **level 100-200 skills in AWS cloud**
+
+A series of random infrastructure and SAP related disruptions called **CHAOS** will be introduced to the SAP S/4HANA landscape. Participants have to diagnose the root cause and get users back online and connected to SAP to minimize impact. The built in disruptions are meant to simulate what could happen in an actual production SAP landscape. Participants who fix the disruptions are awarded points on the basis on numerous factors and move on to the next level with new **CHAOS** to happen. The participant with most points at the end wins the AWS SAP GameDay.
 
 ## Instructions
 
@@ -55,7 +55,16 @@ You’ll be introduced to 5 different **CHAOS** at different intervals. As soon 
     * Use event hash: **c193-1b69073794-d3**
     * Choose **“Email One-Time Password (OTP)”** and use your company email id which you used to register for the event (APN).
     * In the Teams Dashboard click on **“Set Team Name”** and provide your name.
+    * Read the **README** carefully. This holds valuable information
     * Click **“AWS Console”** to open AWS Console
+    * Check your **current score** on the scoreboard
+
+## First steps
+
+* Once the **CHAOS** has started (the instructor will let you know) get an overview about your AWS GameDay environment
+* Find out what led to the unavailability of the SAP system
+* Use all available information (Readme, this page, the AWS console) to solve the issue and reestablish the connection to the SAP system via SAPlogon
+* You may find useful landscape information in you scoring details
 
 ## Feedback
 Please complete the online SAP GameDay survey before you exit the event, your opinion matters. Responses are anonymous and are critical to help improve future event experiences.
@@ -71,13 +80,17 @@ Please complete the online SAP GameDay survey before you exit the event, your op
 * AWS SAP HANA Quick Start:	[https://aws.amazon.com/quickstart/architecture/sap-hana/](https://aws.amazon.com/quickstart/architecture/sap-hana/)
 
 How to deploy SAP S/4HANA with High Availability using AWS Launch Wizard | Amazon Web Services:
+
 [https://www.youtube.com/watch?v=0VyvrE2fvmc](https://www.youtube.com/watch?v=0VyvrE2fvmc)
 
 SAP on AWS Partner Workshop Catalog and On-Demand Content:
+
 [https://catalog.saponaws-partners.cloud/](https://catalog.saponaws-partners.cloud/)
 
 AWS Certification Journeys: 
+
 [https://pages.awscloud.com/GLOBAL_TRAINCERT_partner_emea_certification_journeys_20210916.html](https://pages.awscloud.com/GLOBAL_TRAINCERT_partner_emea_certification_journeys_20210916.html)
 
 AWS upcoming Certification: SAP on AWS – Specialty:
+
 [https://aws.amazon.com/certification/coming-soon/](https://aws.amazon.com/certification/coming-soon/)
