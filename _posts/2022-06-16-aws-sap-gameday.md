@@ -59,22 +59,22 @@ You’ll be introduced to 5 different **CHAOS** at different intervals. As soon 
     * Click **AWS Console** to open AWS Console
     * Check your **current score** on the score board
 
-Once you reach a certain score a new **CHAOS** level is triggered. This may take some minutes to take effect in your GameDay environment.
-
-| Chaos Level | Trigger Score |
-|:-----------:|:-------------:|
-|      1      |     21000     |
-|      2      |     23500     |
-|      3      |     26000     |
-|      4      |     28500     |
-|      5      |     31000     |
-
 ## First steps
 
 * Once the first **CHAOS** has started (the instructor will let you know) get an overview about your AWS GameDay environment
 * Find out what led to the unavailability of the SAP system
 * Use all available information (README, this page, the AWS Console) to solve the issue and reestablish the connection to the SAP system via SAPlogon
 * You may find useful information under *Score Events* on your *Team Dashboard* as well
+
+Once you reach a certain score a new **CHAOS** level is triggered. This may take some minutes to take effect in your GameDay environment.
+
+|  Chaos Level  |  Trigger Score  |
+|:-------------:|:---------------:|
+|       1       |      21000      |
+|       2       |      23500      |
+|       3       |      26000      |
+|       4       |      28500      |
+|       5       |      31000      |
 
 ## Feedback
 Please complete the online SAP GameDay survey before you exit the event, your opinion matters. Responses are anonymous and are critical to help improve future event experiences.
