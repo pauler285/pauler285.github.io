@@ -59,6 +59,16 @@ You’ll be introduced to 5 different **CHAOS** at different intervals. As soon 
     * Click **AWS Console** to open AWS Console
     * Check your **current score** on the score board
 
+Once you reach a certain score a new **CHAOS** level is triggered. This may take some minutes to take effect in your GameDay environment.
+
+| Chaos Level | Trigger Score |
+|:-----------:|:-------------:|
+|      1      |     21000     |
+|      2      |     23500     |
+|      3      |     26000     |
+|      4      |     28500     |
+|      5      |     31000     |
+
 ## First steps
 
 * Once the first **CHAOS** has started (the instructor will let you know) get an overview about your AWS GameDay environment
