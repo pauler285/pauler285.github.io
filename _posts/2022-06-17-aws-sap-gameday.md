@@ -48,7 +48,7 @@ A fictitious organization *Unicorn.Rentals* relies heavily on SAP to run their c
 |Unicorn-Rentals-HQ-SAP            |  Unicorn-Rentals-HQ-SAP\*                      |  Bastion hosts   |
 |mod-\*-S4NewVPCHA-\*-VPCStack-\*  |  Private Subnet 1A/ 2A, Public Subnet 1/ 2    |  SAP landscape   |
 
-### Your SAP system constists of severeal instances listed below. You will also find two instances acting as bastion hosts.
+### Your SAP system consists of severeal instances listed below. You will also find two instances acting as bastion hosts.
 
 |Name                       | Instance Type | Availability Zone | Security Group Name                                         |  
 |---------------------------|-----------|---------------|---------------------------------------------------------------------|      
