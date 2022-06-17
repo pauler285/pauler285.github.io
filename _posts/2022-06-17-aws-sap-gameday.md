@@ -41,6 +41,12 @@ A fictitious organization *Unicorn.Rentals* relies heavily on SAP to run their c
 ![architecture of the gameday environment](../images/aws_gameday_architecture.jpg)
 *Architecture of the gameday environment*
 
+| VPC                              |  Subnets                                       |  Usage           |
+|-----                             |-----                                           |-----             |
+|Unicorn-Rentals-HQ-SAP            |  Unicorn-Rentals-HQ-SAP\*                      |  Bastion hosts   |
+|mod-\*-S4NewVPCHA-\*-VPCStack-\*  |  Private Subnet 1A/ 2A, Public Subnet 1/ 2    |  SAP landscape   |
+
+
 |Name                       | Instance Type | Availability Zone | Security Group Name                                         |  
 |---------------------------|-----------|---------------|---------------------------------------------------------------------|      
 |HANA - HDB - Secondary     | r5.4xlarge|  us-east-1b   | mod-\*-SAPASCSStackSplitandEF-SecondaryInstance-\*-HANASecurityGroup-\*|     	
