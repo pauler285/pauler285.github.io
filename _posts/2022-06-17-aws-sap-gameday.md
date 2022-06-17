@@ -61,6 +61,17 @@ A fictitious organization *Unicorn.Rentals* relies heavily on SAP to run their c
 |Unicorn-Rentals-HQ-SAP PC-1| t2.large  |  us-east-1a	| unicorn-sg                                                          |    
 |Unicorn-Rentals-HQ-SAP PC-2| t2.large  |  us-east-1a	| unicorn-sg                                                          |        
 
+### SAP System Information
+
+SAP System ID (SID): **S4H**
+
+| Instance Type | Instance # |
+| :-----------: | :--------: |
+| A-SCS         | 00         |
+| PAS           | 01         |
+| AAS           | 00         |
+| HDB           | 00         |
+
 # Game Play
 All participants are expected to have **level 200-300 skills in SAP administration** and **level 100-200 skills in AWS cloud**
 
