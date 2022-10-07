@@ -11,9 +11,9 @@ Backint Agent.
 
 ## Your hosts
 
-* Marcus Ritter, AWS Senior Partner Trainer
-* Sreenath Middhi, AWS Sr. Partner Solutions Architect, SAP 
-* Sourav Kumar Sadhu, AWS Partner Solutions Architect, SAP
+* Marcus Cebella, AWS Partner Trainer
+* Paul Guy, AWS Sr. Partner Solutions Architect, SAP 
+* Benjamin Houttuin, AWS Sr. Partner Solutions Architect, SAP
 * Robert Paul, AWS Partner Solutions Architect, SAP
 
 ## Lab guide (main document to follow)
@@ -23,7 +23,7 @@ Backint Agent.
 ## AWS account
 
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
-* Event Hash: **3c4f-1e47bd6374-34**
+* Event Hash: **6aed-1c2b2dd0f4-f4**
 * Please use region **us-east-1 (North Virginia)** at all times.
 * The temporary accounts are valid until: 2022-06-16 ~10:00 a.m. UTC
 * Set a team name (this helps for the troubleshooting)
@@ -54,7 +54,7 @@ Click on the Lab Guide URL: [https://basis-express-immersionday.workshop.aws/](h
 Click *Prerequisites - AWS account “Event Engine“* tab to Login to lab your environment.
 
 * Lab Environment login: [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
-* Use event hash: **3c4f-1e47bd6374-34**
+* Use event hash: **6aed-1c2b2dd0f4-f4**
 * Set a team name (this helps for the troubleshooting)
 * Choose “Email One-Time Password (OTP)” and use your company email id (check your SPAM too) – this might take 1 or 2 minutes to arrive.
 * Click **“AWS Console”** to access the AWS Console
