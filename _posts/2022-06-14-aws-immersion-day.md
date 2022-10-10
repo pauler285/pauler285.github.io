@@ -57,7 +57,8 @@ Click *Prerequisites - AWS account “Event Engine“* tab to Login to lab your 
 * Use event hash: **6aed-1c2b2dd0f4-f4**
 * Set a team name (this helps for the troubleshooting)
 * Choose “Email One-Time Password (OTP)” and use your company email id (check your SPAM too) – this might take 1 or 2 minutes to arrive.
-* Click **“AWS Console”** to access the AWS Console
+* Click **“AWS Console”** and then **"Open Console"** to access the AWS Console
+* Download the default SSH Key *ee-default-keypair* (*.pem) at the first screen. 
 
  
 ### Lab 1: Getting started
