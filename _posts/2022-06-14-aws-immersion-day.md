@@ -132,7 +132,7 @@ sleep 10
 
 ```
 
-### Lab 3: Backup SAP HANA**
+### Lab 3: Backup SAP HANA
 
 *IMPORTANT:* First step is to create an Amazon S3 Bucket to store your HANA Backup. Refer to link: 
 [https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html), make sure to select region **“us-east-1 (N. Virginia)”**, name the bucket **"\<initials>-bkp-\<random_number>"** so that the name is unique, and leave everything else default.
