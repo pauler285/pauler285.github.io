@@ -34,7 +34,11 @@ Backint Agent.
 
 ## Breakout rooms for questions and troubleshooting
 
-We will use breakout rooms during the session to support.
+* Room 1: [https://chime.aws/7390592603](https://chime.aws/7390592603)
+* Room 2: [https://chime.aws/6109302865](https://chime.aws/6109302865)
+* Room 3: [https://chime.aws/9088320630](https://chime.aws/9088320630)
+* Room 4: [https://chime.aws/4490540088](https://chime.aws/4490540088)
+* Room 5: [https://chime.aws/3595748058](https://chime.aws/3595748058)
 
 ## Additional information
 
@@ -80,57 +84,6 @@ Click “Lab 2: Deploy SAP HANA” and complete the below sections.
     * For Step 20, point no. 4 use the following S3 URL *(including the concluding /)*: [s3://launchwizard-160656184270/saps4hana-2021/HANADB/](s3://launchwizard-160656184270/saps4hana-2021/HANADB/)
     * The deployment will take ~30 minutes to finish.
 * Task 2.2: Install HANA Admin Console 
-    * In case you can't C&P into the rendered RDP session, open this page and C&P locally.
-
-```
-echo "START"
-$ErrorActionPreference = "Stop"
-#
-$mypath = "c:/eclipse2021-09"
-If(!(test-path $mypath))
-{
-    New-Item -ItemType Directory -Force -Path $mypath
-}
-#
-cd $mypath
-# UNCOMMENT IN CASE NO JRE EXISTING
-#echo "Downloading Amazon Corretto 11..."
-#$url = "https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi"
-#$output = $mypath+"/amazon-corretto-11-x64-windows-jdk.msi"
-#(New-Object System.Net.WebClient).DownloadFile($url, $output)
-#echo "...done!"
-#echo "Installing Amazon Corretto 11..."
-#.\amazon-corretto-11-x64-windows-jdk.msi /qn /L* "install.log" /norestart ALLUSERS=2
-#echo "...done!"
-#
-echo "Downloading Eclipse..."
-$url = "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-09/R/eclipse-java-2021-09-R-win32-x86_64.zip&r=1"
-$output = $mypath+"/eclipse-java-2021-09-R-win32-x86_64.zip"
-(New-Object System.Net.WebClient).DownloadFile($url, $output)
-echo "...done!"
-echo "Installing Eclipse..."
-Expand-Archive -Path eclipse-java-2021-09-R-win32-x86_64.zip -DestinationPath $mypath
-echo "...done!"
-#
-cd eclipse
-#
-dir
-#
-Start-Process -FilePath c:/eclipse2021-09/eclipse/eclipse.exe -ArgumentList "-nosplash -consoleLog -application org.eclipse.equinox.p2.director -repository https://tools.hana.ondemand.com/2021-09,http://download.eclipse.org/releases/2021-09 -installIU com.sap.ndb.studio.admin.feature.feature.group"
-#
-echo "Create Shortcut..."
-#
-$WshShell = New-Object -comObject WScript.Shell
-$Shortcut = $WshShell.CreateShortcut("C:\Users\Public\Desktop\eclipse.lnk")
-$Shortcut.TargetPath = $mypath+"/eclipse/eclipse.exe"
-$Shortcut.Save()
-#
-echo "...done!"
-#
-echo "Installing SAP HANA Tools for Eclipse, please wait for new window to close! Closing here in 10 seconds!"
-sleep 10
-
-```
 
 ### Lab 3: Backup SAP HANA**
 
