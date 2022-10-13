@@ -39,7 +39,7 @@ We will use breakout rooms during the session to support.
 
 ## Additional information
 
-![Target architecture of the lab](../images/aws_immersion_day_architecture.jpg)
+![Target architecture of the lab](../images/aws_immersion_day_architecture.png)
 *Target architecture of the lab*
 
 ## Additional information for the lab
