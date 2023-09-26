@@ -148,6 +148,7 @@ unzip /usr/sap/downloads/abapsdk/abapsdk-LATEST.zip -d /usr/sap/downloads/abapsd
 ```
 
 - Move transport files to transport directories
+
 ```
 find /usr/sap/downloads/abapsdk/transports/core -name 'R*AWS' -type f -exec mv {} /usr/sap/trans/data/ \;
 find /usr/sap/downloads/abapsdk/transports/core -name 'K*AWS' -type f -exec mv {} /usr/sap/trans/cofiles/ \;
@@ -160,22 +161,21 @@ find /usr/sap/downloads/abapsdk/transports/sns -name 'K*AWS' -type f -exec mv {}
 
 find /usr/sap/downloads/abapsdk/transports/tex -name 'R*AWS' -type f -exec mv {} /usr/sap/trans/data/ \;
 find /usr/sap/downloads/abapsdk/transports/tex -name 'K*AWS' -type f -exec mv {} /usr/sap/trans/cofiles/ \;
-
 ```
 
 - Set permissions to files
+
 ```
 find /usr/sap/trans/data/ -name 'R*AWS' -type f -exec chmod 777 {} \;
 find /usr/sap/trans/cofiles -name 'K*AWS' -type f -exec chmod 777 {} \;
-
 ```
 
 - Add transports to buffer
+
 ```
 su - s4aadm
 /bin/bash
 for name in /usr/sap/trans/cofiles/K*; do BASE=`basename $name | cut -f1 -d.`; tp addtobuffer AWS$BASE $SAPSYSTEMNAME client=000 pf=/usr/sap/trans/bin/TP_DOMAIN_S4A.PFL; done
-
 ```
 
 - Import transports into SAP system
