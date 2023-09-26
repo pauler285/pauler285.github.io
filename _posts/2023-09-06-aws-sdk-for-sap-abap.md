@@ -213,7 +213,7 @@ The import of the transports can take up to 25 minutes. tp RC=8 is OK in this ca
 
 #### Needed SAP system adjustments before proceeding
 
-Before we can go ahead with the global and runtime settings we need to adjust our demo environment. This setting for client 000 has to be made for demo purposes only. In a real world scenarios client 000 would not be used for ABAP development.
+Before we can go ahead with the global and runtime settings we need to adjust our demo environment. This setting for client 000 has to be made for demo purposes only. In a real world scenario client 000 would not be used for ABAP development.
 
 - Allow changes for client specific objects
     - Go to transaction SCC4
@@ -239,7 +239,11 @@ Before we can go ahead with the global and runtime settings we need to adjust ou
 
 ### Task03. ABAP Developer
 
-Run through as described but keep in mind that SAP System ID = **S4A**, SAP client = **000** and we are working in AWS region **eu-west-1**. Please replace the given values with those. 
+Run through as described but keep in mind that SAP System ID = **S4A**, SAP client = **000** and we are working in AWS region **eu-west-1**. Please replace the given values with those mentioned here. 
+
+### Task04. SAP Security
+
+Run through as described.
 
 ## Lab02. [Amazon S3]
 
