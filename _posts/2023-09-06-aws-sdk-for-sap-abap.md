@@ -18,9 +18,9 @@ The lab guide is the main document for this workshop. This blog entry on the oth
 # Login to your AWS demo account
 
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
-* Event Hash: **6aed-1c2b2dd0f4-f4**
+* Event Hash: **d251-1c7658ae44-61**
 * Please use region **eu-west-1 (Ireland)** at all times.
-* The temporary accounts are valid until: 2023-09-28 ~8:00 p.m. CEST
+* The temporary accounts are valid until: 2023-09-29 ~2:00 p.m. CEST
 * Set a team name (this helps for the troubleshooting)
 * Choose “Email One-Time Password (OTP)” and use your company email id (check your SPAM too) – this might take 1 or 2 minutes to arrive.
 * Click **“AWS Console”** and then **"Open Console"** to access the AWS Console
@@ -117,7 +117,7 @@ After the configuration of the STMS proceed with **Lab01. Getting Started, Task0
 
 ### Task02. Basis Admin
 
-#### "1. SAP prerequisiste"
+#### "1. SAP prerequisite"
 
 - Open the mentioned link from within the bastion host (use Internet Explorer, use recommended security, privacy and compatibility settings and add website to trusted sites when asked)
 - Download the mentioned certificates using the PEM link
