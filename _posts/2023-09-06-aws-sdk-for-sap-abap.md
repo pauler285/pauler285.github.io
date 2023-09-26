@@ -111,7 +111,7 @@ Before we can install the AWS SDK for SAP ABAP, the STMS has to be configured. P
     - Right click on: "SSL client SSL Client (Standard)
     - Click on "Create" and confirm default values
     - Import Amazon Root Certs as described
-    - Dont forget to click "Save" to persist settings
+    - Don't forget to click "Save" to persist settings
 
 - "2. ABAP SDK Installation"
     - As AWS SDK for SAP ABAP is already generally available we do not need to request access to it anymore
@@ -160,12 +160,14 @@ find /usr/sap/downloads/abapsdk/transports/sns -name 'K*AWS' -type f -exec mv {}
 
 find /usr/sap/downloads/abapsdk/transports/tex -name 'R*AWS' -type f -exec mv {} /usr/sap/trans/data/ \;
 find /usr/sap/downloads/abapsdk/transports/tex -name 'K*AWS' -type f -exec mv {} /usr/sap/trans/cofiles/ \;
+
 ```
 
 - Set permissions to files
 ```
 find /usr/sap/trans/data/ -name 'R*AWS' -type f -exec chmod 777 {} \;
 find /usr/sap/trans/cofiles -name 'K*AWS' -type f -exec chmod 777 {} \;
+
 ```
 
 - Add transports to buffer
@@ -173,6 +175,7 @@ find /usr/sap/trans/cofiles -name 'K*AWS' -type f -exec chmod 777 {} \;
 su - s4aadm
 /bin/bash
 for name in /usr/sap/trans/cofiles/K*; do BASE=`basename $name | cut -f1 -d.`; tp addtobuffer AWS$BASE $SAPSYSTEMNAME client=000 pf=/usr/sap/trans/bin/TP_DOMAIN_S4A.PFL; done
+
 ```
 
 - Import transports into SAP system
