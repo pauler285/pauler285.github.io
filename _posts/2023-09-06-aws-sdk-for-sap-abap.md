@@ -231,7 +231,8 @@ Before we can go ahead with the global and runtime settings we need to adjust ou
 
 
 #### "3. Global and Runtime setting"
-    - Do as documented
+
+- Do as documented
 
 ### Task03. ABAP Developer
 
