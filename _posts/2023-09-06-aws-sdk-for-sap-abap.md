@@ -118,14 +118,15 @@ After the configuration of the STMS proceed with **Lab01. Getting Started, Task0
 ### Task02. Basis Admin
 
 #### "1. SAP prerequisiste"
-    - Open the mentioned link from within the bastion host (use Internet Explorer and add the domain to the security exception list when asked)
-    - Download the mentioned certificates using the PEM link
-    - Go to transaction STRUST
-    - Switch to "edit mode"
-    - Right click on: "SSL client SSL Client (Standard)
-    - Click on "Create" and confirm default values
-    - Import Amazon Root Certs as described
-    - Don't forget to click "Save" to persist settings
+
+- Open the mentioned link from within the bastion host (use Internet Explorer, use recommended security, privacy and compatibility settings and add website to trusted sites when asked)
+- Download the mentioned certificates using the PEM link
+- Go to transaction STRUST
+- Switch to "edit mode"
+- Right click on: "SSL client SSL Client (Standard)
+- Click on "Create" and confirm default values
+- Import Amazon Root Certs as described
+- Don't forget to click "Save" to persist settings
 
 #### "2. ABAP SDK Installation"
 
@@ -244,11 +245,11 @@ Please do this lab as described. As we do not have information in table **VBAK**
 
 ## Lab03. [Amazon SNS]
 
-Please do this lab as described
+Please do this lab as described. Note that we already imported the needed transports for the AWS SDK classes before. For this lab we will focus on e-mail notification and skip the part with the lambda function.
 
 ## Lab04. [Amazon Textract]
 
-Please do this lab as described
+Please do this lab as described. Note that we already imported the needed transports for the AWS SDK classes before.
 
 ## Clean up resources
 
