@@ -201,7 +201,7 @@ su - s4aadm
 for name in /usr/sap/trans/cofiles/K*; do BASE=`basename $name | cut -f1 -d.`; tp addtobuffer AWS$BASE $SAPSYSTEMNAME client=000 pf=/usr/sap/trans/bin/TP_DOMAIN_S4A.PFL; done
 ```
 
-After adding the transports to the transport queue, you can either check and import the whole queue using SAP GUI and transaction STMS (import all, target client 000, asynchronous imort and **ignore invalid component versions**) or use the command below to import all added transports from CLI using tp.
+After adding the transports to the transport queue, you can either check and import the whole queue using SAP GUI, transaction STMS (import all, target client 000, asynchronous import and **ignore invalid component versions**) or use the command below to import all added transports from CLI using tp.
 
 - Import transports into SAP system
 
