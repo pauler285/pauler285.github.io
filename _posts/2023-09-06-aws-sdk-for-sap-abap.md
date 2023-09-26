@@ -188,7 +188,7 @@ find /usr/sap/downloads/abapsdk/transports/tex -name 'K*AWS' -type f -exec mv {}
 - Set permissions to files
 
 ```
-find /usr/sap/trans/data/ -name 'R*AWS' -type f -exec chmod 777 {} \;
+find /usr/sap/trans/data -name 'R*AWS' -type f -exec chmod 777 {} \;
 find /usr/sap/trans/cofiles -name 'K*AWS' -type f -exec chmod 777 {} \;
 ```
 
